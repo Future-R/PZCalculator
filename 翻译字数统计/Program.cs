@@ -40,7 +40,7 @@ public static class Program
         Console.WriteLine($"总　计{总计}");
         
         double 完成度 = (Convert.ToDouble(已翻译字数) / Convert.ToDouble(总计));
-        for (double i = 0.1d; i < 1.02d; i += 0.02d)
+        for (double i = 0.02d; i < 1.02d; i += 0.02d)
         {
             if (完成度 > i)
             {
