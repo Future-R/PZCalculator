@@ -1,0 +1,11 @@
+E:\repo\翻译字数统计\翻译字数统计\obj\Debug\翻译字数统计.csproj.AssemblyReference.cache
+E:\repo\翻译字数统计\翻译字数统计\obj\Debug\翻译字数统计.csproj.SuggestedBindingRedirects.cache
+E:\repo\翻译字数统计\翻译字数统计\obj\Debug\翻译字数统计.csproj.CoreCompileInputs.cache
+E:\repo\翻译字数统计\翻译字数统计\bin\Debug\翻译字数统计.exe.config
+E:\repo\翻译字数统计\翻译字数统计\bin\Debug\翻译字数统计.exe
+E:\repo\翻译字数统计\翻译字数统计\bin\Debug\翻译字数统计.pdb
+E:\repo\翻译字数统计\翻译字数统计\bin\Debug\Newtonsoft.Json.dll
+E:\repo\翻译字数统计\翻译字数统计\bin\Debug\Newtonsoft.Json.xml
+E:\repo\翻译字数统计\翻译字数统计\obj\Debug\翻译字数统计.csproj.CopyComplete
+E:\repo\翻译字数统计\翻译字数统计\obj\Debug\翻译字数统计.exe
+E:\repo\翻译字数统计\翻译字数统计\obj\Debug\翻译字数统计.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "翻译字数统计", "翻译字数统计\翻译字数统计.csproj", "{3FF081B6-256A-4C5A-9458-B7B195BCA701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FF081B6-256A-4C5A-9458-B7B195BCA701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF081B6-256A-4C5A-9458-B7B195BCA701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF081B6-256A-4C5A-9458-B7B195BCA701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF081B6-256A-4C5A-9458-B7B195BCA701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {775FD8AD-410E-48BB-A89F-89E300DFFAE2}
+	EndGlobalSection
+EndGlobal
