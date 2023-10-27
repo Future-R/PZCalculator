@@ -14,7 +14,7 @@ public static class Program
     {
         Console.OutputEncoding = Encoding.Unicode;
         var processor = new JsonFileProcessor();
-        Console.Title = "Paratranz真实进度统计V1.1.0";
+        Console.Title = "Paratranz真实进度统计V1.1.1";
         Console.WriteLine("请拖入要统计的目录（会搜索所有子目录）：");
         string input = Console.ReadLine();
         processor.ProcessFiles(input);
@@ -35,6 +35,7 @@ public static class Program
         double 临时进度格 = 进度格;
         string 鱼 = "";
         List<string> 鱼群 = new List<string>();
+        Console.ForegroundColor = ConsoleColor.Red;
         for (int i = 0; i < 未翻译原文.Count; i++)
         {
             鱼 = 已翻译原文.Find(x => x == 未翻译原文[i]);
@@ -49,9 +50,25 @@ public static class Program
                 临时进度格 += 进度格;
             }
         }
-        foreach (var item in 鱼群)
+        Console.WriteLine();
+        for (int i = 0; i < 鱼群.Count; i++)
         {
-            Console.WriteLine(item);
+            switch (i % 3)
+            {
+                case 0:
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    break;
+                case 1:
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    break;
+                case 2:
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    break;
+                default:
+                    break;
+            }
+            
+            Console.WriteLine($"【{i}】{System.Environment.NewLine}{鱼群[i]}");
             Console.WriteLine("按任意键继续");
             Console.ReadKey();
         }

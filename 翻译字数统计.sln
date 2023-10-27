@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "翻译字数统计", "翻译字数统计\翻译字数统计.csproj", "{3FF081B6-256A-4C5A-9458-B7B195BCA701}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV翻译字数统计", "CSV翻译字数统计\CSV翻译字数统计.csproj", "{4F3A7599-0ABD-4626-9308-E3EEFDFDF4D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3FF081B6-256A-4C5A-9458-B7B195BCA701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF081B6-256A-4C5A-9458-B7B195BCA701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FF081B6-256A-4C5A-9458-B7B195BCA701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3A7599-0ABD-4626-9308-E3EEFDFDF4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3A7599-0ABD-4626-9308-E3EEFDFDF4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3A7599-0ABD-4626-9308-E3EEFDFDF4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3A7599-0ABD-4626-9308-E3EEFDFDF4D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
