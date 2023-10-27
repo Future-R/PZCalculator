@@ -8,6 +8,7 @@ public static class Program
     public static void Main()
     {
         var processor = new JsonFileProcessor();
+        Console.Title = "Paratranz真实进度统计V1.0.1";
         Console.WriteLine("请拖入要统计的目录（会搜索所有子目录）：");
         string input = Console.ReadLine();
         List<JObject> fileContents = processor.ProcessFiles(input);
@@ -33,13 +34,29 @@ public static class Program
             }
         }
         int 总计 = 已翻译字数 + 未翻译字数;
-        Console.WriteLine($"总计{总计}");
+        Console.WriteLine();
         Console.WriteLine($"已翻译{已翻译字数}");
         Console.WriteLine($"未翻译{未翻译字数}");
-
-        double 完成度 = (double)已翻译字数 / (double)总计;
-        Console.WriteLine($"完成度{完成度}");
+        Console.WriteLine($"总　计{总计}");
         
+        double 完成度 = (Convert.ToDouble(已翻译字数) / Convert.ToDouble(总计));
+        for (double i = 0.1d; i < 1.02d; i += 0.02d)
+        {
+            if (完成度 > i)
+            {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.Write("◆");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("◇");
+            }
+        }
+        Console.ForegroundColor = ConsoleColor.Gray;
+        Console.WriteLine();
+        Console.WriteLine($"完成度{Math.Round(完成度 * 100d, 2)}%");
+        Console.WriteLine();
         return 完成度;
     }
 }
