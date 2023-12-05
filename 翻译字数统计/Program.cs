@@ -14,7 +14,7 @@ public static class Program
     {
         Console.OutputEncoding = Encoding.Unicode;
         var processor = new JsonFileProcessor();
-        Console.Title = "Paratranz真实进度统计V1.1.1";
+        Console.Title = "Paratranz真实进度统计V1.1.2";
         Console.WriteLine("请拖入要统计的目录（会搜索所有子目录）：");
         string input = Console.ReadLine();
         processor.ProcessFiles(input);
@@ -51,6 +51,7 @@ public static class Program
             }
         }
         Console.WriteLine();
+        Console.WriteLine($"共计{鱼群.Count}条鱼：");
         for (int i = 0; i < 鱼群.Count; i++)
         {
             switch (i % 3)
